@@ -13,3 +13,21 @@
   .backToHome {
     margin: 3rem 0 0;
   }
+
+  .body{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 0.5rem;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    padding: 3rem 0;
+    text-align: center;
+  }

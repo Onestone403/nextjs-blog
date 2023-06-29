@@ -58,12 +58,13 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <main>{children}</main>
+      <main className={styles.body}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <div className={styles.footer}>Life is as simple as E = mc²</div>
     </div>
   );
 }
